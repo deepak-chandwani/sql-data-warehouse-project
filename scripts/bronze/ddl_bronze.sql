@@ -40,9 +40,9 @@ CREATE TABLE bronze.crm_sales_details (
 	sls_cust_id INT,
 	sls_order_dt INT,
 	sls_ship_dt INT,
-	sls_dur_dt INT,
+	sls_due_dt INT,
 	sls_sales INT,
-	sls_quality INT,
+	sls_quantity INT,
 	sls_price INT
 );
 IF OBJECT_ID ('bronze.erp_loc_a101', 'U') IS NOT NULL
